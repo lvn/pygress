@@ -1,6 +1,6 @@
 # Pygress
 ### by [Elvin Yung](https://github.com/elvinyung)
-## Simple commandline progress bars in Python
+## Simple command-line progress bars in Python
 
 ### Install
 It's on [PyPi](https://pypi.python.org/pypi/pygress)! Install it using `pip install pygress`.
