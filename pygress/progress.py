@@ -12,13 +12,13 @@ class ProgressBar():
         self.show_percent = show_percent
         self.message = message
 
-    def setProgress(self, progress):
+    def set_progress(self, progress):
         self.progress = progress
 
-    def addProgress(self, delta):
+    def add_progress(self, delta):
         self.progress += delta
 
-    def subtractProgress(self, delta):
+    def subtract_progress(self, delta):
         self.progress -= delta
 
     def render(self):
