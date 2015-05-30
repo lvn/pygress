@@ -66,3 +66,6 @@ If message is set, the progress bar looks like this (for an example of message a
 ```
 Loading... |#########---------------------|
 ```
+
+#### `use_stderr`
+If `True`, the progress bar is printed to stderr. If `False`, the progress bar is printed to stdout. Defaults to
