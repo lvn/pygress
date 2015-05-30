@@ -25,6 +25,19 @@ By default, the progress bar looks something like this:
 |#########---------------------|
 ```
 
+### Methods
+#### `set_progress(progress)`
+Sets the progress on the bar. Should be a float between `0.0` and `1.0`.
+
+#### `add_progress(delta)`
+Adds some progress to the bar. Should be a float less than `1.0`.
+
+#### `subtract_progress(delta)`
+Subtracts some progress from the bar. Should be a float less than `1.0`.
+
+#### `render`
+Renders the progress bar to output. 
+
 ### Parameters
 #### `length`
 Sets the maximum length of the progress bar. Defaults to 30.
