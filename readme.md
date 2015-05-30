@@ -3,7 +3,9 @@
 ## Simple commandline progress bars in Python
 
 ### Install
-Get it on [PyPi](https://pypi.python.org/pypi/pygress)!
+It's on [PyPi](https://pypi.python.org/pypi/pygress)! Install it using `pip install pygress`.
+
+Right now I've only tested this with Python 3.3.4.
 
 ### Quickstart
 ```python
