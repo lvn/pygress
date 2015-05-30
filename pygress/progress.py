@@ -4,12 +4,13 @@ import sys
 
 class ProgressBar():
     def __init__(self, length=30, progress=0.0, progchar='#', emptychar='-',
-                 show_percent=False):
+                 show_percent=False, message=''):
         self.length = length
         self.progress = progress
         self.progchar = progchar
         self.emptychar = emptychar
         self.show_percent = show_percent
+        self.message = message
 
     def setProgress(self, progress):
         self.progress = progress
@@ -23,7 +24,7 @@ class ProgressBar():
     def render(self):
         bar_len = min(int(self.progress * self.length), self.length)
         empty_len = self.length - bar_len
-        sys.stdout.write(' |')
+        sys.stdout.write('{} |'.format(self.message))
         sys.stdout.write(bar_len * self.progchar)
         sys.stdout.write(empty_len * self.emptychar)
         sys.stdout.write('| ')
