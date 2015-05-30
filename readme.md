@@ -68,4 +68,4 @@ Loading... |#########---------------------|
 ```
 
 #### `use_stderr`
-If `True`, the progress bar is printed to stderr. If `False`, the progress bar is printed to stdout. Defaults to
+If `True`, the progress bar is printed to stderr. If `False`, the progress bar is printed to stdout. Defaults to `True`.
